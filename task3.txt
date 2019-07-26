@@ -1,0 +1,3 @@
+turnTo(SOUTH)
+move(2,2)
+turnTo(NORTH)

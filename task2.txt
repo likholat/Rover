@@ -1,0 +1,3 @@
+turnTo(NORTH)
+task3.txt
+move(3,4)
