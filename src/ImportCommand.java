@@ -7,7 +7,7 @@ import java.util.List;
 public class ImportCommand implements RoverCommand {
     private List<RoverCommand> roverCommandList;
     private String filename;
-    Rover rover;
+    private Rover rover;
 
     @Override
     public void execute() {
@@ -27,7 +27,7 @@ public class ImportCommand implements RoverCommand {
         }
     }
 
-    public ImportCommand(String filename, Rover rover){
+    ImportCommand(String filename, Rover rover){
         roverCommandList = new ArrayList<>();
         this.filename = filename;
         this.rover = rover;
